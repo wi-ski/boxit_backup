@@ -1,0 +1,100 @@
+/*--- social_mail ---*/
+.social_mail {
+	background: url("../images/smallshutter/yogabeach.jpg") no-repeat;
+	background-size: 100%;
+	padding: 10% 0;
+	text-align: left;
+}
+.social_mail h3{
+	color:#ffffff;
+	font-size:4em;
+	font-weight :400;
+}
+.social_mail p{
+	color:#ffffff;
+	font-size:2.5em;
+	font-weight :400;
+}
+/*---startr-social_mail-icons-set----?*/
+.social_mail-icons-set{
+	float: left;
+	width: 34%;
+	margin: 1.5em 0em 0 0;
+}
+.social_mail-icons-set ul li{
+	display:inline-block;
+	padding: 3px;
+}
+.social_mail-icons-set ul li:nth-child(3),.social_mail-icons-set ul li:nth-child(6){
+	margin-right:0px;
+}
+.social_mail-icons-set ul li a{
+	height:50px;
+	width:50px;
+	display:block;
+	background:url(../images/social_mail-icons.png) no-repeat;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.social_mail-icons-set ul li a.facebook{
+	background: url(../images/image-sprit.png) no-repeat -246px 9px #1BBC9D;
+	border-radius: 3em;
+	border: 5px solid #333;
+}
+.social_mail-icons-set ul li a.facebook:hover{
+	background: url(../images/image-sprit.png) no-repeat -246px 9px #33ADFF;
+}
+.social_mail-icons-set ul li a:hover {
+	zoom: 1;	
+	-webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}
+.social_mail-icons-set ul li a.twitter{
+	background: url(../images/image-sprit.png) no-repeat 10px 9px #1BBC9D;
+	border-radius: 3em;
+	border: 5px solid #333;
+}
+.social_mail-icons-set ul li a.twitter:hover{
+	background: url(../images/image-sprit.png) no-repeat 10px 9px #33ADFF;
+
+}
+.social_mail-icons-set ul li a.vimeo{
+	background: url(../images/image-sprit.png) no-repeat -33px 8px #1BBC9D;
+	border-radius: 3em;
+	border: 5px solid #333;
+}
+.social_mail-icons-set ul li a.vimeo:hover{
+	background: url(../images/image-sprit.png) no-repeat -33px 8px #33ADFF;
+	
+}
+.social_mail-icons-set ul li a.rss{
+	background: url(../images/image-sprit.png) no-repeat -77px 10px #1BBC9D;
+	border-radius: 3em;
+	border: 5px solid #333;
+	margin-left: 4px;
+}
+.social_mail-icons-set ul li a.rss:hover{
+	background: url(../images/image-sprit.png) no-repeat -77px 10px #33ADFF;
+}
+.social_mail-icons-set ul li a.gplus{
+	background: url(../images/image-sprit.png) no-repeat -118px 8px #1BBC9D;
+	border-radius: 3em;
+	border: 5px solid #333;
+}
+.social_mail-icons-set ul li a.gplus:hover{
+	background: url(../images/image-sprit.png) no-repeat -118px 8px #33ADFF;
+}
+.social_mail-icons-set ul li a.pin{
+	background: url(../images/image-sprit.png) no-repeat -161px 8px #1BBC9D;
+	border-radius: 3em;
+	border: 5px solid #333;
+}
+.social_mail-icons-set ul li a.pin:hover{
+	background: url(../images/image-sprit.png) no-repeat -161px 8px #33ADFF;
+}
+/*---start-tooltips----*/
